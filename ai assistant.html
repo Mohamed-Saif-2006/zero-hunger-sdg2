@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AI Food Assistant | Zero Hunger</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <h2>ZeroHunger</h2>
+  <div>
+    <a href="index.html">Home</a>
+    <a href="post-food.html">Donate Food</a>
+    <a href="food-list.html">Find Food</a>
+  </div>
+</nav>
+
+<section class="form-section">
+  <h2>AI Food Assistant 🤖</h2>
+  <div class="form-card">
+    <input id="userQuery" placeholder="Ask me about food donations...">
+    <button onclick="askAI()">Ask AI</button>
+    <div id="aiResponse" style="margin-top: 20px; background: #f1f1f1; padding: 15px; border-radius: 8px;"></div>
+  </div>
+</section>
+
+<script src="ai-script.js"></script>
+</body>
+</html>

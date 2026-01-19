@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Donate Food | Zero Hunger</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <h2>ZeroHunger</h2>
+  <div>
+    <a href="index.html">Home</a>
+    <a href="food-list.html">Find Food</a>
+  </div>
+</nav>
+
+<section class="form-section">
+  <h2>Donate Surplus Food</h2>
+
+  <div class="form-card">
+    <input id="foodName" placeholder="Food Name">
+    <input id="quantity" placeholder="Quantity (eg: 10 plates)">
+    <input id="location" placeholder="Location / Area">
+    <input id="expiry" type="date">
+    <input id="contact" placeholder="Contact Number">
+
+    <button onclick="postFood()">Submit Donation</button>
+  </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
